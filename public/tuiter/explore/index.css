@@ -18,8 +18,13 @@ body{
     padding-top: 7px;
     padding-bottom: 7px;
     width: 80%;
-
 }
+
+
+.padded-tab {
+    padding: 16px 16px 16px 16px
+}
+
 
 .position-search-bar-icon{
     position: absolute;
@@ -29,8 +34,13 @@ body{
 
 .position-gear-icon{
     position: absolute;
-    right: 16px;
+    right: 12px;
     top: 14px;
+}
+
+.position-tabs {
+    position: absolute;
+    top: 35px;
 }
 
 .zindex-bring-to-front{
@@ -41,3 +51,188 @@ body{
     position: relative;
     left: 16px;
 }
+
+.web-text{
+    font-family: "Arial";
+    color: gray;
+    font-size: 15px;
+    text-align: center;
+}
+
+.selected-text{
+    font-family: "Arial";
+    color: rgb(29,161,242);
+    font-size: 15px;
+    text-align: center;
+}
+
+.bg-color-black{
+    background-color: black;
+}
+
+.border-selected-tab{
+    border-color: rgb(29,161,242);
+    border-style: solid;
+    border-width: 0px 0px 7px 0px;
+    border-bottom-left-radius: 3px ;
+    border-bottom-right-radius: 3px ;
+}
+
+.border-unselected-tab{
+    border-color: gray;
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+}
+
+.grid-col-tab {
+    width: 10%;
+    float: left;
+}
+
+.grid-col-fat-tab {
+    width: 12%;
+    float: left;
+}
+
+
+
+.border-topic{
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(110, 118, 125);
+}
+
+
+.topic{
+    background-color: black;
+    width: 95%;
+    display: grid;
+}
+
+.position-topic1{
+    position: absolute;
+    top: 150px;
+    left: 16px;
+}
+.position-topic2{
+    position: absolute;
+    top: 235px;
+    left: 16px;
+}
+
+.position-topic3{
+    position: absolute;
+    top: 320px;
+    left: 16px;
+}
+
+.position-nytimes-logo{
+    position: absolute;
+    top: 10px;
+    left: 16px;
+    border-radius: 50px;
+}
+
+.position-nytimes-verified{
+    position: absolute;
+    top: 10px;
+    left: 162px;
+    border-radius: 50px;
+}
+
+.position-topic4{
+    position: absolute;
+    top: 450px;
+    left: 16px;
+}
+
+.position-topic5{
+    position: absolute;
+    top: 575px;
+    left: 16px;
+}
+
+.position-bloomberg-logo{
+    position: absolute;
+    top: 10px;
+    left: 16px;
+    border-radius: 50px;
+}
+
+.position-bloomberg-verified{
+    position: absolute;
+    top: 10px;
+    left: 152px;
+    border-radius: 50px;
+}
+
+.position-topic6{
+    position: absolute;
+    top: 705px;
+    left: 16px;
+}
+
+.trending-text {
+    color: rgb(110, 118, 125);
+    font-family: "Arial";
+    font-size: 13px;
+    margin-bottom: 2px;
+    margin-top: 5px;
+}
+
+.topic-text {
+    color: lightgray;
+    font-family: "Arial";
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.title-text {
+    color: lightgray;
+    font-family: "Arial";
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 70px;
+    padding-right: 30px;
+}
+
+.author-text {
+    color: lightgray;
+    font-family: "Arial";
+    font-size: 13px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 40px;
+    padding-right: 30px;
+}
+
+.text-padding {
+    padding-left: 16px;
+}
+
+.topic-padding {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.featured-image{
+    width: 100px;
+    height:100px;
+    position:absolute;
+    right: 16px;
+    top: 10px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
