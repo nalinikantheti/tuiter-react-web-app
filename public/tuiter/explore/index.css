@@ -1,17 +1,9 @@
 
-.rounded-corners-all-around {
-    border-radius: 50px;
-    border-width: 0px;
-}
-
 .searchbar-colors{
     background-color: rgb(47, 51, 54) ;
     color:lightgray;
 }
 
-body{
-    background-color: black;
-}
 
 .padded-search-bar{
     padding-left: 50px;
@@ -43,14 +35,7 @@ body{
     top: 35px;
 }
 
-.zindex-bring-to-front{
-    z-index: 2;
-}
 
-.pos-from-right {
-    position: relative;
-    left: 16px;
-}
 
 .web-text{
     font-family: "Arial";
@@ -92,14 +77,6 @@ body{
 .grid-col-fat-tab {
     width: 12%;
     float: left;
-}
-
-
-
-.border-topic{
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(110, 118, 125);
 }
 
 

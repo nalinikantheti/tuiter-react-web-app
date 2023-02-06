@@ -1,0 +1,185 @@
+.bookmarks-title{
+    font-family: "Arial";
+    font-size: 20px;
+    color: white;
+    margin-top: 12px;
+    margin-bottom:1px;
+}
+
+.user-title{
+    font-family: "Arial";
+    font-size: 15px;
+    color: white;
+    top: 12px;
+}
+
+.content{
+    font-family: "Arial";
+    font-size: 15px;
+    color: lightgray;
+    top: 20px;
+    position: absolute;
+    max-width: 506px;
+    padding-right: 16px;
+    margin-bottom: 12px;
+
+}
+
+.handle-text {
+    color: gray;
+    font-family: "Arial";
+    font-size: 13px;
+    margin-bottom: 12px;
+    margin-top: 5px;
+}
+
+.border-bookmark {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(47, 51, 54);
+    width: 90%;
+}
+
+.avatar-image {
+    position: absolute;
+    border-radius: 50px;
+    width: 48px;
+    height: 48px;
+    top: -35px;
+}
+
+.bookmark-height {
+    height: 600px;
+}
+
+.profile-padding{
+    padding-left: 80px;
+}
+
+.main-image{
+    width: 504px;
+    height: 264px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.position-cats{
+    position: absolute;
+    top: 160px;
+    left: 80px;
+}
+
+.border-photo {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(47, 51, 54);
+    width: 504px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    top: 325px;
+    height: 100px;
+    margin-left:63px;
+}
+
+.subject-heading {
+    margin-top: 0px;
+    font-family: "Arial";
+    font-size: 15px;
+    color: lightgray;
+    max-width: 480px;
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-bottom: 5px;
+}
+
+.subject-content {
+    margin-top: 0px;
+    font-family: "Arial";
+    font-size: 15px;
+    color: gray;
+    max-width: 480px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.grid-col-icon {
+    width: 25%;
+    float: left;
+}
+
+
+.icon-comment{
+    width:25%;
+    float: left;
+    font-family: Arial;
+    font-size: 15px;
+    color:gray;
+    position: absolute;
+    bottom: 30px;
+    padding-left: 32px;
+    left: 80px
+}
+
+.image-comment {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 30px;
+    left: 80px;
+}
+
+.icon-retweet{
+    width:25%;
+    float: left;
+    font-family: Arial;
+    font-size: 15px;
+    color:gray;
+    position: absolute;
+    bottom: 30px;
+    padding-left: 32px;
+    left: 200px
+}
+
+.image-retweet {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 30px;
+    left: 200px;
+}
+
+.icon-heart{
+    width:25%;
+    float: left;
+    font-family: Arial;
+    font-size: 15px;
+    color:crimson;
+    position: absolute;
+    bottom: 30px;
+    padding-left: 32px;
+    left: 320px
+}
+
+.image-heart {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 30px;
+    left: 320px;
+}
+
+.image-share {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 30px;
+    left: 440px;
+}
+
+.bgb{
+    background-color: #61dafb;
+}
+
+
+
