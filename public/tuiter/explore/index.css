@@ -1,0 +1,43 @@
+
+.rounded-corners-all-around {
+    border-radius: 50px;
+    border-width: 0px;
+}
+
+.searchbar-colors{
+    background-color: rgb(47, 51, 54) ;
+    color:lightgray;
+}
+
+body{
+    background-color: black;
+}
+
+.padded-search-bar{
+    padding-left: 50px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 80%;
+
+}
+
+.position-search-bar-icon{
+    position: absolute;
+    left: 40px;
+    top: 14px;
+}
+
+.position-gear-icon{
+    position: absolute;
+    right: 16px;
+    top: 14px;
+}
+
+.zindex-bring-to-front{
+    z-index: 2;
+}
+
+.pos-from-right {
+    position: relative;
+    left: 16px;
+}
