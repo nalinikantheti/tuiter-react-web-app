@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head >
+    <meta charset="UTF-8" >
+    <title >new explore page using Bootstrap</title >
+    <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="../../vendors/bootswatch/bootstrap.min%20(2).css" rel="stylesheet"/>
+    <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet"/>
+    <link href="index.css" rel="stylesheet"/>
+</head >
+<body >
+
+<div class="row">
+    <div class="col-2 col-md-3 col-lg-2">
+        <div class="list-group mt-2 ms-2">
+            <a href="../navigation.html" class="list-group-item list-group-item-action">
+                <i class="fab fa-twitter"></i><br/>
+            </a>
+            <a href="../home.html" class="list-group-item list-group-item-action">
+                <i class="fa fa-home"></i>
+                <span class = "d-none d-lg-inline-block">Home</span>
+                <br/>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action active">
+                <i class="fa fa-hashtag"></i>
+                <span class = "d-none d-lg-inline-block">Explore</span>
+                <br/>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+                <i class="fa fa-bell"></i>
+                <span class = "d-none d-lg-inline-block">Notifications</span>
+                <br/>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+                <i class="fa fa-envelope"></i>
+                <span class = "d-none d-lg-inline-block">Messages</span>
+                <br/>
+            </a>
+            <a href="../bookmarks/index.html" class="list-group-item list-group-item-action">
+                <i class="fa fa-bookmark"></i>
+                <span class = "d-none d-lg-inline-block">Bookmarks</span>
+                <br/>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+                <i class="fa fa-list"></i>
+                <span class = "d-none d-lg-inline-block">Lists</span>
+                <br/>
+            </a>
+            <a href="../profile.html" class="list-group-item list-group-item-action">
+                <i class="fa fa-user"></i>
+                <span class = "d-none d-lg-inline-block">Profile</span>
+                <br/>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+                <i class = "fa fa-comment-dots"></i>
+
+                <span class = "d-none d-lg-inline-block">More</span>
+                <br/>
+            </a>
+        </div>
+        <button type ="button" class = "col-11 ms-2 mt-2 btn btn-primary rounded-pill">Tuit</button>
+    </div>
+
+
+    <div class="col-10 col-md-9 col-lg-6" >
+        <div class="row mt-2">
+            <div class = "col-10">
+                <div class = "input-group mb-3">
+                    <span class="input-group-text">
+                     <i class = "fa fa-search"></i>
+                    </span>
+                    <input type="text" class="ps-5 form-control rounded-pill" placeholder="Search Tuiter">
+                </div>
+
+            </div>
+
+            <div class = "col-2">
+                <a href = "#">
+                    <i class = "fa fa-cog fa-2x" style = "color: dodgerblue"></i>
+                </a>
+            </div>
+        </div>
+        <div class = "row col-12">
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link active" href="for-you.html">For You</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="trending.html">Trending</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="news.html">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sports.html">Sports</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="entertainment.html">Entertainment</a>
+                </li>
+            </ul>
+        </div>
+        <div class = "row col-12">
+            <div class="card col-12">
+                <img src="../../images/starship.jpg"
+                     class="card-img-bottom mt-3" alt="...">
+                <h2 class = "card-img-overlay text-white">SpaceX's Starship</h2>
+                <div class="card-body border-bottom">
+                    <div class = "row">
+                        <div class = "col-9">
+                            <p class = "card-text text-muted mb-0">Web Development</p>
+                            <span class="card-text "><b>ReactJS</b></span>
+                            <i class = "fa fa-check-circle"></i>
+                            <span class = "text-muted"> - 2h</span>
+                            <p class = "card-text">React.js is a component based
+                            front end library that makes it very easy to build Single
+                            Page Applications of SPAs</p>
+                        </div>
+                        <div class = "col-3 mt-3">
+                            <img src = "../../images/react.png" width = "80px" class = "rounded"/>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card-body border-bottom">
+                    <div class = "row">
+                        <div class = "col-9">
+                            <span class="card-text "><b>JavaScript</b></span>
+                            <i class = "fa fa-check-circle"></i>
+                            <span class = "text-muted"> - 2h</span>
+                            <p class = "card-text mb-0">JavaScript is a programming language that
+                            can run on browsers as well as desktops</p>
+                            <p class = "text-muted">123k tweets</p>
+                        </div>
+                        <div class = "col-3 mt-3">
+                            <img src = "../../images/js.png" width = "80px" class = "rounded"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body border-bottom">
+                    <div class = "row">
+                        <div class = "col-9">
+                            <p class = "card-text text-muted mb-0">Web Development</p>
+                            <span class="card-text "><b>JQuery</b></span>
+                            <i class = "fa fa-check-circle"></i>
+                            <span class = "text-muted"> - 2h</span>
+                            <p class = "text-muted">123k tweets</p>
+                        </div>
+                        <div class = "col-3 mt-3">
+                            <img src = "../../images/jquery.png" width = "80px" class = "rounded"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body border-bottom">
+                    <div class = "row">
+                        <div class = "col-9">
+                            <p class = "card-text text-muted mb-0">Web Development</p>
+                            <span class="card-text "><b>NodeJS</b></span>
+                            <i class = "fa fa-check-circle"></i>
+                            <span class = "text-muted"> - 2h</span>
+                            <p class = "text-muted">123k tweets</p>
+                        </div>
+                        <div class = "col-3 mt-3">
+                            <img src = "../../images/nodejs.jpg" width = "80px" class = "rounded"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="col-5 col-lg-4 d-none d-lg-block" >
+        <div class="list-group mt-2 me-2">
+            <a href="../navigation.html" class="list-group-item list-group-item-action">
+                <b>Who to Follow</b>
+            </a>
+            <li class="list-group-item">
+                <div class = "row">
+                    <div class ="col-2">
+                        <img src = "../../images/java.png" width = 48px class = "rounded-circle"/>
+                    </div>
+                    <div class = "col-6">
+                        Java
+                        <i class = "fa fa-check-circle"></i>
+                        </br>
+                        @Java
+                    </div>
+                    <div class = "col-4">
+                        <button type ="button" class = "col-11 ms-2 mt-2 btn btn-primary rounded-pill">
+                            Follow
+                        </button>
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item">
+                <div class = "row">
+                    <div class ="col-2">
+                        <img src = "../../images/relativity.png" width = 48px class = " rounded-circle"/>
+                    </div>
+                    <div class = "col-6 ms-0">
+                        Relativity Space
+                        <i class = "fa fa-check-circle"></i>
+                        </br>
+                        @relativityspace
+                    </div>
+                    <div class = "col-4">
+                        <button type ="button" class = "col-11 ms-2 mt-2 btn btn-primary rounded-pill">
+                            Follow
+                        </button>
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item">
+                <div class = "row">
+                    <div class ="col-2">
+                        <img src = "../../images/virgin.png" width = 48px class = "rounded-circle"/>
+                    </div>
+                    <div class = "col-6">
+                        Virgin Galactic
+                        <i class = "fa fa-check-circle"></i>
+                        </br>
+                        @virgingalactic
+                    </div>
+                    <div class = "col-4">
+                        <button type ="button" class = "col-11 ms-2 mt-2 btn btn-primary rounded-pill">
+                            Follow
+                        </button>
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item">
+                <div class = "row">
+                    <div class ="col-2">
+                        <img src = "../../images/NASA.png" width = 48px class = "rounded-circle"/>
+                    </div>
+                    <div class = "col-6">
+                        NASA
+                        <i class = "fa fa-check-circle"></i>
+                        </br>
+                        @NASA
+                    </div>
+                    <div class = "col-4">
+                        <button type ="button" class = "col-11 ms-2 mt-2 btn btn-primary rounded-pill">
+                            Follow
+                        </button>
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item">
+                <div class = "row">
+                    <div class ="col-2">
+                        <img src = "../../images/tesla.png" width = 48px class = "rounded-circle"/>
+                    </div>
+                    <div class = "col-6">
+                        Tesla
+                        <i class = "fa fa-check-circle"></i>
+                        </br>
+                        @Tesla
+                    </div>
+                    <div class = "col-4">
+                        <button type ="button" class = "col-11 ms-2 mt-2 btn btn-primary rounded-pill">
+                            Follow
+                        </button>
+                    </div>
+                </div>
+            </li>
+        </div>
+    </div>
+</div>
+
+</body >
+</html >
