@@ -1,5 +1,5 @@
 import React from "react";
-import '../../vendors/bootstrap/css/bootstrap.min.css';
+// import '../../vendors/bootstrap/css/bootstrap.min.css';
 
 const NavigationSidebar = (
  {
