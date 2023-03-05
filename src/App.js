@@ -9,6 +9,7 @@ import {Routes, Route} from "react-router";
 function App() {
   return (
     <BrowserRouter>
+    <div id = "root">
     <div className="container">
       <Routes>
         <Route index
@@ -19,6 +20,8 @@ function App() {
                element={<Tuiter/>}/>
       </Routes>
     </div>
+    </div>
+    
     </BrowserRouter>
   );
 }
