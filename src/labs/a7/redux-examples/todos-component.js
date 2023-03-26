@@ -49,7 +49,7 @@ const Todos = () => {
                 )
 
             }
-                {/* <li className="list-group-item">
+                <li className="list-group-item">
                     <button onClick={createTodoClickHandler}
                         className="btn btn-primary w-25 
                           float-end">
@@ -58,7 +58,7 @@ const Todos = () => {
                         onChange={todoChangeHandler}
                         value={todo.do}
                         className="form-control" />
-                </li> */}
+                </li>
             </ul>
         </>
     );
