@@ -9,13 +9,17 @@ const NavigationSidebar = (
  return (
    <div className="list-group bg-danger">
      <a href="#/" className="list-group-item">Tuiter</a>
-     <a href="#/" className={`list-group-item
+     <a href="/home" className={`list-group-item
                     ${active === 'home'?'active':''}`}>
        Home
      </a>
-     <a href="#/" className={`list-group-item
+     <a href="/explore" className={`list-group-item
                     ${active === 'explore'?'active':''}`}>
        Explore
+     </a>
+     <a href="/" className={`list-group-item
+                    ${active === 'labs'?'active':''}`}>
+       Labs
      </a>
      <a href="#/" className={`list-group-item
                     ${active === 'notifications'?'active':''}`}>

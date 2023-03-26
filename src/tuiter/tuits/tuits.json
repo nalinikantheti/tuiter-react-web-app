@@ -1,0 +1,44 @@
+[
+  {
+    "_id": 234,
+    "topic": "Space",
+    "userName": "SpaceX",
+    "time": "2h",
+    "title": "100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
+    "image": "starship.jpg",
+    "liked": false,
+    "replies": 123,
+    "retuits": 432,
+    "likes": 2345,
+    "handle": "@spacex",
+    "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
+  },
+  {
+    "_id": 123,
+    "topic": "cats",
+    "userName": "cat lover",
+    "time": "3m",
+    "title": "100s of cats constantly roam the streets of mumbai looking for pets",
+    "image": "catt.jpg",
+    "liked": false,
+    "replies": 123,
+    "retuits": 432,
+    "likes": 2345,
+    "handle": "@catluvr6785",
+    "tuit": "have you ever noticed how many street cats there are in india? if you visit Mumbar, you will surely see thousands of cats roaming your building asking for food and pets. They will also meow at you."
+  },
+  {
+    "_id": 489,
+    "topic": "bigfeet and nike",
+    "userName": "Bigathon Footly",
+    "time": "3d",
+    "title": "bigfeet community in ditress over lack of comfortable activewear",
+    "image": "bigfoot.jpg",
+    "liked": false,
+    "replies": 123,
+    "retuits": 432,
+    "likes": 2345,
+    "handle": "@bigfeetrep",
+    "tuit": "Today, the bigfeet community is saddened by Nike's lack of inclusion in their new active wear clothing line, lacking clothes that will comfortably fit those of us with larger and hairier bodies. we regret this silencing of our community, and implore nike to do better."
+  }
+]
