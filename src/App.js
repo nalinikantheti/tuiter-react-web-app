@@ -2,7 +2,7 @@
 import './App.css';
 import Labs from "./labs/index";
 import Assignment7 from "./labs/a7/index";
-import Tuiter from "./tuiter";
+import Tuiter from "./tuiter/index";
 import TuiterExplorePage from "./tuiter/explore-index";
 import { BrowserRouter } from "react-router-dom";
 import { Routes, Route } from "react-router";
@@ -16,12 +16,12 @@ function App() {
             element={<Labs />} />
           <Route path="/a7"
             element={<Assignment7 />} />
+          <Route path="/tuiter"
+            element={<Tuiter />} />
           <Route path="/home"
-            element={<Tuiter/>} />
-            <Route path="/tuiter"
-            element={<Tuiter/>} />
+            element={<Tuiter />} />
           <Route path="/explore"
-            element={<TuiterExplorePage/>} />
+            element={<TuiterExplorePage />} />
         </Routes>
       </div>
 
