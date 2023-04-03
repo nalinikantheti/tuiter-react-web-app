@@ -26,6 +26,7 @@ const TuitItem = (
   const deleteTuitHandler = (id) => {
     dispatch(deleteTuitThunk(id));
   }
+  // eslint-disable-next-line no-unused-vars
   const likeUpdateHandler = (id) => {
     dispatch(updateTuitLikes(id));
   }
