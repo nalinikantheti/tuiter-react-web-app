@@ -49,7 +49,10 @@ const TuitItem = (
                   <span className="col-4" > Likes: 
                   <i className={`bi bi-heart${tuit.liked ? '-fill text-danger' : ''}`} onClick={() => likeUpdateHandler(tuit._id)}></i>
                       {tuit.likes}</span>
-                  <span className="col-3"> Dislikes: <i className="bi bi-hand-thumbs-down"></i></span>
+                  <span className="col-3"> Dislikes:
+                  <i className={`bi bi-hand-thumbs-down${tuit.disliked ? '-fill text-primary' : ''}`} onClick={() => likeUpdateHandler(tuit._id)}></i>
+                  {tuit.dislikes}
+                   </span>
                   <span className="col-1"> <i className="bi bi-share"></i></span>
               </div>
      </div>
