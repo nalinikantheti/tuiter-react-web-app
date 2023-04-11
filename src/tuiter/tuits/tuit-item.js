@@ -1,6 +1,5 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import { updateTuitLikes } from "./tuits-reducer";
 import { deleteTuitThunk, updateTuitThunk } from "../../services/tuits-thunks";
 
 const TuitItem = (
@@ -28,7 +27,7 @@ const TuitItem = (
   }
   // eslint-disable-next-line no-unused-vars
   const likeUpdateHandler = (id) => {
-    dispatch(updateTuitLikes(id));
+    dispatch(updateTuitThunk(id));
   }
   return(
     <li className="list-group-item">
