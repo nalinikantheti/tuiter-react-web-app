@@ -1,5 +1,6 @@
 import React from "react";
 import { useDispatch } from "react-redux";
+// import { updateTuitLikes } from "./tuits-reducer";
 import { deleteTuitThunk, updateTuitThunk } from "../../services/tuits-thunks";
 
 const TuitItem = (
